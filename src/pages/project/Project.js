@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom"
 import { useDocument } from '../../hooks/useDocument'
 
 // components
-import ProjectComments from "../dashboard/ProjectComments"
+import ProjectComments from "../project/ProjectComments"
 import ProjectSummary from "./ProjectSummary"
 
 // styles
