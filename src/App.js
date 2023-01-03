@@ -35,8 +35,8 @@ function App() {
                 element={user ? <Create /> : <Navigate to="/login" />}
               />
               <Route
-                path="/projects:id"
-                element={user ? <Dashboard /> : <Navigate to="/login" />}
+                path="/projects/:id"
+                element={user ? <Project /> : <Navigate to="/login" />}
               />
 
               <Route
